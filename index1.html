@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Insertar datos</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<title>Document</title>
+</head>
+<body>
+
+
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img src="img/L.RICSA HD.gif" id="icon" alt="User Icon" />
+    </div>
+
+    <!-- Login Form -->
+    <form  method="POST" name="form-work" action="logica/guardar.php">
+
+<div class="container">
+
+<article class="card-body mx-auto" style="max-width: 300px;">
+	<h4 class="card-title mt-3 text-center">Registro de actividades</h4>
+	<form>
+	<div class="form-group input-group">
+		<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+		 </div>
+        <input id="usunumero" name="usunumero" class="form-control" placeholder="Número empleado" type="text" >
+    </div> <!-- form-group// -->
+
+    <div class="form-group input-group">
+    	<div class="input-group-prepend">
+		    <span class="input-group-text"> <i class="fa fa-building"></i> </span>
+		</div>
+		<select class="form-control" id="usuActividad" name="usuActividad">
+			<option value="Armado">Armado</option>
+			<option value="Soldadura">Soldadura</option>
+			<option value="Limpieza">Limpieza</option>
+		</select>
+	</div> <!-- form-group end.// -->
+  <div class="form-group input-group">
+    <div class="input-group-prepend">
+      <span class="input-group-text"> <i class="fa fa-building"></i> </span>
+  </div>
+  <select class="form-control"  id="usuRIC"  name="usuHoras">
+    <option value="R123">R-21122</option>
+    <option value="1234">R-22125</option>
+    <option value="12345">R-123</option>
+  </select>
+</div> <!-- form-group end.// -->
+<div class="form-group input-group">
+  <div class="input-group-prepend">
+    <span class="input-group-text"> <i class="fa fa-building"></i> </span>
+  </div>
+  <select class="form-control" id="usuPiezas" name="usuPiezas">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+  </select>
+  </div> <!-- form-group end.// -->
+  <div class="form-group input-group">
+    <div class="input-group-prepend">
+      <span class="input-group-text"> <i class="fa fa-building"></i> </span>
+  </div>
+  <select class="form-control"  id="Horas" name="usuRIC"  >
+    <!-- <option selected="selected"  id="Horas" name="usuRIC"> Horas trabajadas</option> -->
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+  </select>
+                               
+    <div class="form-group">
+      <input type="submit" class="fadeIn fourth" value="Enviar">
+    </div> <!-- form-group// -->      
+    <p class="text-center">Si requieres ayuda comunicate con el departamento de HSE :)<a href=""> </p>                                                                 
+  </form>
+ 
+
+
+      <!--
+      <input type="text" id="usuActividad" class="fadeIn third" name="usuActividad" placeholder="Actividad">
+      <input type="text" id="Horas" class="fadeIn second" name="usuRIC" placeholder="Horas empleadas">
+      <input type="text" id="usuPiezas" class="fadeIn third" name="usuPiezas" placeholder="Número de piezas">
+      <input type="text" id="usuRIC" class="fadeIn third" name="usuHoras" placeholder="Número RIC">
+      <input type="submit" class="fadeIn fourth" value="Enviar">
+                                    <div class="form-group">
+                                      <div class="col-md-12">
+                                        
+                                      </div>
+                                    </div>     
+                                </fieldset> 
+                              </form>
+                              <div id="formFooter">
+                                <a class="underlineHover" href="#">Si requieres ayuda comunicate con el departamento de HSE :)</a>
+                              </div>
+                 </center>
+              </div>
+    
+-->
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+</html>
